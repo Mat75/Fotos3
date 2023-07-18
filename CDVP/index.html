@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Aplicacion de voz para tomar selfies</h1>
+        <hr>
+        <h3>Haz clic en permitir cuando aparezca la ventana emergente, depués de dar una orden de voz.</h3>
+        <div>
+            <h4>Di "toma mi selfie"</h4>
+            <label>Tu salida de voz</label>
+            <br>
+            <textarea id="textbox" readonly="true"></textarea>
+        </div>
+        <button onclick="start()" id="iniciar">Iniciar</button>
+        <p>Haz clic en el boton iniciar</p>
+        <label>Tu camara:</label>
+        <div id="camara">
+
+        </div>
+        <br>
+        <label>Tu selfie aparecera aqui:</label>
+        <div id="resultado">
+
+        </div>
+        <br>
+        <img src="https://lacomparacion.com/wp-content/uploads/2019/04/La-mejor-camara-2019-10-de-las-mejores-camaras-que.jpg" height="200" width="200">
+        <img src="https://www.enter.co/wp-content/uploads/2016/08/Nikon-D810.jpg" height="200" width="200">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.JfUYhecgEFQ_qCFuCpffiAHaE7&pid=Api&P=0&h=180" height="200" width="200">
+        
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
